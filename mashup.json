@@ -1,0 +1,172 @@
+{
+  "id": "sigf/supercraft-superhot-fortnite-mod-4",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 4: SUPERHOT × Fortnite",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Fortnite with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "fortnite",
+      "role": "guest",
+      "label": "Fortnite",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-fortnite-mod-4.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/beam.png",
+              "sha256": "c05855a6716f5f8e9036d52b06391182e977db696063fc9eff7f625934bf30fb"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/circle_05.png",
+              "sha256": "7f618e61f8411f8f8b4ca8abbc077d8b50a9d671294341be5c1972d4e1d30f88"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/light_01.png",
+              "sha256": "deb45fe7bc165bb5580c1a5785a968f68fb943394ae3ae1b3b8cdbc3e7a7e371"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/smoke_01.png",
+              "sha256": "ed663e66e29d55b27809573985c53c4e6aa8b6eb4a0d998351498d633b308d98"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/spark_05.png",
+              "sha256": "5c513d86ee1ce1395b6cfba01795dc7986d6e87dcef1a86917ebb52685de3be6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/star_04.png",
+              "sha256": "ae64357169a6f01d10fec31e3f8ab3f808adee5ae05d2964a577f9e59d981ec9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/star_07.png",
+              "sha256": "6a1d2d15b80dc311527492fc47509df642b2ece831b86f6c8bb4bf5ec12a2131"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/trace_01.png",
+              "sha256": "97bd717ee0d89b6c62956671d7037cfd1db9a063ab99fc1af4607fee893412ed"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/build_ghost.wav",
+              "sha256": "e4eb53977c8f6a149cead10b397542c1751561118eab6a3c5265df71dae43332"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/build_place.wav",
+              "sha256": "3aea7051d069a3cae38e4d715a2eac7bf0bc29a8e2abc5590aebfcc4bd86b82e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/dance_loop.wav",
+              "sha256": "73a33de8a103461eae6e34199530e5a88182f8e280fd927142f92fdd66cc0d01"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/elim.wav",
+              "sha256": "cb29dc95356503bcfa3dfe00d61be1768d7e3dbf55d44af58202a2ee6d709ed8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/llama_pop.wav",
+              "sha256": "27ec31cc38bc368b30f46f767bfdbc7c24546589f0fdc8254336740e26f9296c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/loot_open.wav",
+              "sha256": "99f07a09d9b80a19868e763b5840d21ee5ba5e001143aae85a0ca50badf99421"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/shield_break.wav",
+              "sha256": "d9ca124ff280b654081e0c0f871f98ee6ff444c6107e52545e9848985940ccc8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/shield_hit.wav",
+              "sha256": "598c9fa3e5503c4ee2bb9690b42aa6342d287bd7cb03aa3ecbb710ae6f81d41e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/victory.wav",
+              "sha256": "43fcb4d8733e5e164b928aa9924f94510369ea77a1f8441f08fc63e80b562a0f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/whoosh.wav",
+              "sha256": "4802800904d03a8851364882c2402e55d4243c63d7d62f734c8aaf607dead5bb"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/wood_break.wav",
+              "sha256": "bb14d3281eb6f27ef399450858341c0cbdd905e140f8c8e0551c0372363c3472"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/wood_hit.wav",
+              "sha256": "aad4e41cf5710c46ab0de9bb954ea2880b3fb220efc398a493ab9ed842ec5853"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/brick.png",
+              "sha256": "b3ece4f9676424aef1255046daa9b2d814491ade0d833defad1f0090f16c02d8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/holo.png",
+              "sha256": "51d02df886097984b15057cc4975973f554485ef987480596e880c5769eba9cc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tex/wood_bright.png",
+              "sha256": "cec100700683be4c6d93c964b7722eb047a5427f320a81b3a65275a756fba454"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "173f756b9ad33cf954badfac61bc5527fd287a0aae7b47012a0f722b5cb6e9e0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "f19323a1d59ea7dcd59233fbb5fcff6ab7c04bf7b1779e692b420688756aa85d"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-fortnite-mod-4/releases/download/v1.0.0/supercraft-superhot-fortnite-mod-4.zip",
+          "sha256": "5f5ec3ac101394d693beb9e6894736a6b939b6879412166b0b4fc03d3353d50f",
+          "size": 4603677
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-fortnite-mod-4.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-fortnite-mod-4/releases/download/v1.0.0/supercraft-superhot-fortnite-mod-4.zip",
+      "sha256": "5f5ec3ac101394d693beb9e6894736a6b939b6879412166b0b4fc03d3353d50f",
+      "size": 4603677
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-fortnite-mod-4",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:27:25.086Z"
+}
